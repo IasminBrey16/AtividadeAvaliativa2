@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvIngredientes" type="id" />
+    <item name="tvPreco" type="id" />
+    <item name="tvSabor" type="id" />
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="20dp"
+tools:context=".DetalhesActivity">
+
+    <TextView
+        android:id="@+id/tvDetalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhes da Pizza"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tvSabor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sabor da pizza"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Sabor" />
+
+    <TextView
+        android:id="@+id/tvPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Preço" />
+
+    <TextView
+        android:id="@+id/tvIngredientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Ingredientes" />
+
+    <Button
+    android:id="@+id/bExcluir"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:text="Exluir" />
+</LinearLayout>

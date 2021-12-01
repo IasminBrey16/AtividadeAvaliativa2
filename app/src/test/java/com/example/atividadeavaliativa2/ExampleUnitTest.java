@@ -1,4 +1,4 @@
-package com.example.atividadeavaliativa;
+package com.example.atividadeavaliativa2;
 
 import org.junit.Test;
 
