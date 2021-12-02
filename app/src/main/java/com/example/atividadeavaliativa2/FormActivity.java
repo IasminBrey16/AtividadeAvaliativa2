@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.example.atividadeavaliativa2.R;
 import com.example.atividadeavaliativa2.database.dao.CardapioDB;
 import com.example.atividadeavaliativa2.database.dao.PizzaDAO;
 import com.example.atividadeavaliativa2.entity.Pizza;

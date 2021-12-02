@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         rvPizzas.setLayoutManager(layout);
         rvPizzas.setAdapter(adapter);
+        rvPizzas.setOnClickListener(v-> startActivity(new Intent(this, DetalhesActivity.class)));
 
         fabAdd.setOnClickListener(v-> startActivity(new Intent(this, FormActivity.class)));
     }
