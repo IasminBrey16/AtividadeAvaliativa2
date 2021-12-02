@@ -30,7 +30,7 @@ public class FormActivity extends AppCompatActivity {
         setContentView(R.layout.activity_form);
 
         etSabor = findViewById(R.id.etSabor);
-        etIngredientes = findViewById(R.id.etPreco);
+        etIngredientes = findViewById(R.id.etIngredientes);
         etPreco = findViewById(R.id.etPreco);
         bSalvar  = findViewById(R.id.bSalvar);
         bExcluir = findViewById(R.id.bExcluir);
